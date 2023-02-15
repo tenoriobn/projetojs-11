@@ -37,6 +37,8 @@ body {
 
     border-radius: 50%;
 
+    cursor: pointer;
+
     width: .9375rem;
     height: .9375rem;
 
@@ -61,7 +63,7 @@ body {
 }
 
 .btn:hover {
-    background-color: var(--orange);
+    background-color: var(--lightGrey);
 }
 
 .btn:active {
@@ -81,12 +83,17 @@ body {
 }
 
 .btn__classificacao:hover {
+    background-color: var(--lightGrey);
+    color: var(--white);
+}
+
+.btn__classificacao:active {
     background-color: var(--white);
     color: var(--orange);
 }
 
 .attribution{
-    bottom: 50px;
+    bottom: 3.125rem;
 }
 
 /* Thank You Screen */
