@@ -11,23 +11,34 @@
 </head>
 <body>
     <main class="container d-flex justify-content-center">
-        <section class="classificacao">
-            <span class="icon__star mb-4"></span>
-            <h2 class="classificacao__subtitulo mb-3">How did we do?</h2>
-            <p class="classificacao__paragrafo mb-4">  
-                Please let us know how we did with your support request. All feedback is appreciated 
-                to help us improve our offering!
-            </p>
+        <section class="selecionar__numero">
+            <div class="classificacao">
+                <span class="icon__star mb-4"></span>
+                <h2 class="classificacao__subtitulo mb-3">How did we do?</h2>
+                <p class="classificacao__paragrafo mb-4">  
+                    Please let us know how we did with your support request. All feedback is appreciated 
+                    to help us improve our offering!
+                </p>
 
-            <div class="classificacao__numerica mb-4 d-flex justify-content-between">
-                <!-- <button class="btn">1</button>
-                <button class="btn">2</button>
-                <button class="btn">3</button>
-                <button class="btn">4</button>
-                <button class="btn">5</button> -->
+                <div class="classificacao__numerica mb-4 d-flex justify-content-between">
+                </div>
+
+                <button type="submit" class="btn__classificacao" id="btn__submit">Submit</button>
             </div>
+        </section>
 
-            <button type="submit" class="btn__classificacao">Submit</button>
+        <section class="numero__selecionado">
+            <div class="classificacao d-flex flex-column justify-content-center align-items-center" id="numero__selecionado">
+                <a href="" class="align-self-end mb-5"><span class="numero__selecionado__refresh"></span></a>
+                
+                <img src="assets/img/illustration-thank-you.svg" alt="Imagem chamativa" class="mb-4 thankyou__img">
+                <p class="classificacao__selected mb-4" id="selected"></p>
+                <h2 class="classificacao__subtitulo mb-3">Thank you!</h2>
+                <p class="classificacao__paragrafo mb-4 text-center">  
+                    We appreciate you taking the time to give a rating. If you ever need more support, 
+                    don’t hesitate to get in touch!
+                </p>
+            </div>
         </section>
     </main>
 

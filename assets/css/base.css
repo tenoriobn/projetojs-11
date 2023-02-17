@@ -27,6 +27,10 @@ body {
     max-width: 21.9375rem;
 }
 
+.numero__selecionado {
+    display: none;
+}
+
 .icon__star {
     display: flex;
     background-color: hsla(217, 12%, 63%, 0.103);
@@ -66,7 +70,8 @@ body {
     background-color: var(--lightGrey);
 }
 
-.btn:active {
+.btn--selecionado {
+    color: var(--white);
     background-color: var(--orange)!important;
 }
 
@@ -97,6 +102,15 @@ body {
 }
 
 /* Thank You Screen */
+.numero__selecionado__refresh {
+    display: block;
+    background-image: url(../img/refresh.png);
+    background-size: 100%;
+
+    width: 20px;
+    height: 20px;
+}
+
 .classificacao__selected {
     background-color: hsla(217, 12%, 63%, 0.103);
     border-radius: 50px;
